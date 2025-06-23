@@ -16,6 +16,16 @@ This is a TDD-based solution written in Dart for the Incubyte Software Craftsper
 ```bash
 dart pub get
 
+Project Structure:
+
+.
+├── bin/
+│   └── string_calculator.dart        # Core implementation
+├── test/
+│   └── string_calculator_test.dart  # TDD-based test cases
+├── pubspec.yaml
+└── README.md
+
 
 Test Case 1:
 

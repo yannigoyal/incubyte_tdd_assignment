@@ -7,10 +7,10 @@ void main() {
     test('Test Case 1: Empty string returns 0', () {
       expect(add(''), equals(0));
     });
-     test('Test Case 2: Single number returns itself', () {
+    test('Test Case 2: Single number returns itself', () {
       expect(add("1"), equals(1));
     });
-     test('Test Case 2: Single number returns itself', () {
+    test('Test Case 2: Single number returns itself', () {
       expect(add("1,5"), equals(6));
     });
     test('Test Case 4: Multiple comma-separated numbers return sum', () {
@@ -23,12 +23,24 @@ void main() {
       expect(add('//;\n1;2'), equals(3));
     });
     test('Test Case 7: Single negative number throws exception', () {
-      expect(() => add('1,-2'),
-          throwsA(predicate((e) => e.toString().contains('negative numbers not allowed -2'))));
+      expect(
+        () => add('1,-2'),
+        throwsA(
+          predicate(
+            (e) => e.toString().contains('negative numbers not allowed -2'),
+          ),
+        ),
+      );
     });
     test('Test Case 8: Multiple negative numbers listed in exception', () {
-      expect(() => add('1,-2,-4'),
-          throwsA(predicate((e) => e.toString().contains('negative numbers not allowed -2,-4'))));
+      expect(
+        () => add('1,-2,-4'),
+        throwsA(
+          predicate(
+            (e) => e.toString().contains('negative numbers not allowed -2,-4'),
+          ),
+        ),
+      );
     });
     test('Test Case 9: Numbers greater than 1000 are ignored', () {
       expect(add('2,1001'), equals(2));
