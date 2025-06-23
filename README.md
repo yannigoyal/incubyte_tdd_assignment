@@ -57,5 +57,10 @@ Test Case 8:
 test: test for multiple negative numbers
 feat: throw exception listing all negative numbers
 
+Test Case 9:
+
+test: test for ignoring numbers > 1000
+feat: skip numbers greater than 1000 in sum
+
 
 

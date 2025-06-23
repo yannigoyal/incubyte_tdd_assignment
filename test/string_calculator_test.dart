@@ -30,5 +30,8 @@ void main() {
       expect(() => add('1,-2,-4'),
           throwsA(predicate((e) => e.toString().contains('negative numbers not allowed -2,-4'))));
     });
+    test('Test Case 9: Numbers greater than 1000 are ignored', () {
+      expect(add('2,1001'), equals(2));
+    });
   });
 }
