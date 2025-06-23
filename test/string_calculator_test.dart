@@ -16,5 +16,8 @@ void main() {
     test('Test Case 4: Multiple comma-separated numbers return sum', () {
       expect(add("1,2,3,4"), equals(10));
     });
+    test('Test Case 5: Handles newlines as delimiter', () {
+      expect(add("1\n2,3"), equals(6));
+    });
   });
 }

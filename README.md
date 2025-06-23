@@ -37,5 +37,10 @@ Test Case 4:
 test: test for multiple comma separated numbers
 feat: handle unknown quantity of numbers
 
+Test Case 5:
+
+test: test for newline as delimiter
+feat: support newline in addition to comma
+
 
 
