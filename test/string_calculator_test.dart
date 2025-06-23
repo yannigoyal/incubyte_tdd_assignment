@@ -26,5 +26,9 @@ void main() {
       expect(() => add('1,-2'),
           throwsA(predicate((e) => e.toString().contains('negative numbers not allowed -2'))));
     });
+    test('Test Case 8: Multiple negative numbers listed in exception', () {
+      expect(() => add('1,-2,-4'),
+          throwsA(predicate((e) => e.toString().contains('negative numbers not allowed -2,-4'))));
+    });
   });
 }

@@ -52,5 +52,10 @@ Test Case 7:
 test: test for single negative number
 feat: throw exception when negative number is passed
 
+Test Case 8:
+
+test: test for multiple negative numbers
+feat: throw exception listing all negative numbers
+
 
 
