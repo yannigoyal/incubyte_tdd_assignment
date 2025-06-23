@@ -2,10 +2,20 @@
 
 This is a TDD-based solution written in Dart for the Incubyte Software Craftsperson role.
 
-## How to run
+## 🛠️ Tech Stack
+
+- **Language:** Dart
+- **Test Framework:** `test` package
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Install Dependencies
 
 ```bash
-dart test
+dart pub get
+
 
 Test Case 1:
 

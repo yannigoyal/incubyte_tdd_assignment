@@ -4,7 +4,7 @@ import '../bin/string_calculator.dart';
 
 void main() {
   group('StringCalculator.add', () {
-    test('returns 0 on empty string', () {
+    test('0', () {
       expect(add(''), equals(0));
     });
 
