@@ -10,5 +10,8 @@ void main() {
     test('1', () {
       expect(add("1"), equals(1));
     });
+    test('2', () {
+      expect(add("1,5"), equals(6));
+    });
   });
 }

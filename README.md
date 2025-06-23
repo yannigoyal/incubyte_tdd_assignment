@@ -26,3 +26,9 @@ Test Case 2:
 
 test: test for single number
 feat: return number
+
+Test Case 3:
+
+test: test for comma seperated numbers in string
+feat: return sum of numbers
+
