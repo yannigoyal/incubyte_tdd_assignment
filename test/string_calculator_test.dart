@@ -7,7 +7,8 @@ void main() {
     test('0', () {
       expect(add(''), equals(0));
     });
-
-    // Add more tests step-by-step...
+    test('1', () {
+      expect(add("1"), equals(1));
+    });
   });
 }
