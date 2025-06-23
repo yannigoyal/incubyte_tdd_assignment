@@ -22,5 +22,9 @@ void main() {
     test('Test Case 6: Handles custom delimiter //;\\n1;2', () {
       expect(add('//;\n1;2'), equals(3));
     });
+    test('Test Case 7: Single negative number throws exception', () {
+      expect(() => add('1,-2'),
+          throwsA(predicate((e) => e.toString().contains('negative numbers not allowed -2'))));
+    });
   });
 }

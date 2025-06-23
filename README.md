@@ -47,5 +47,10 @@ Test Case 6:
 test: test for custom delimiter
 feat: support custom delimiters using //;\n syntax
 
+Test Case 7:
+
+test: test for single negative number
+feat: throw exception when negative number is passed
+
 
 
