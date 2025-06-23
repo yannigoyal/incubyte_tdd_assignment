@@ -42,5 +42,10 @@ Test Case 5:
 test: test for newline as delimiter
 feat: support newline in addition to comma
 
+Test Case 6:
+
+test: test for custom delimiter
+feat: support custom delimiters using //;\n syntax
+
 
 
